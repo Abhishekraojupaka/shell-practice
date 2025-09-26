@@ -22,5 +22,5 @@ VALIDATE $? "MySQL"
 dnf install nginx -y
 VALIDATE $? "Nginx"
 
-dnf install phython3
-VALIDATE $? "Phython3"
+dnf install python3
+VALIDATE $? "python3"
