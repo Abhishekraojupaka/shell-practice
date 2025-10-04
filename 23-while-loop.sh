@@ -22,4 +22,4 @@ while IFS= read -r line; do
     # if [[ "$line" == "specific_text" ]]; then
     #    echo "Found specific text!"
     # fi
-done < 20-script-1.sh 
+done < 20-script-1.sh  
