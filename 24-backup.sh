@@ -19,7 +19,7 @@ echo "Script started executed at: $(date)" | tee -a $LOG_FILE
 fi
 
 USAGE(){
-    echo "$R USAGE:: sudo sh 24-backup.sh <SOURCE_DIR> <DEST_DIR> <DAYS>[optional, default 14 days] $N"
+    echo "USAGE:: sudo sh 24-backup.sh <SOURCE_DIR> <DEST_DIR> <DAYS>[optional, default 14 days]"
     exit 1
 }
 
